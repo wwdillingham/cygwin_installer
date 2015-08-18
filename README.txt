@@ -1,7 +1,5 @@
 README for Cluster Installation Script.
 Cygwin FAQ: http://cygwin.com/faq/
-Tufts Cluster INFO: https://wikis.uit.tufts.edu/confluence/display/TuftsUITResearchComputing/Home
-Direct any questions / concerns to staff@asunix.tufts.edu
 
 *******************
 *USING THIS SCRIPT*
@@ -15,9 +13,9 @@ Right Click the .zip folder (Install_Cygwin.zip) and select "Extract all". The W
 *******************
 *About this Script*
 *******************
-This Script is intended for usage by members of the Tufts University Community. Specifically those who would like to utilize the Compute Cluster and forward the remote X11 data from the cluster. This script will call a .vbs script in the subdir "support_files" to download the cygwin installer (setup.exe) in c/users/public/setup.exe. Then back in the .bat script, it will execute that script with various install options. It will download additional packages needed for utilization of the cluster.
+This script will call a .vbs script in the subdir "support_files" to download the cygwin installer (setup.exe) in c/users/public/setup.exe. Then back in the .bat script, it will execute that script with various install options. It will download additional packages needed for utilization of the cluster.
 
-Here are those packages: xlogo,xinit,joe,vim,inetutils,openssh,emacs
+Here are those packages: xlogo,xinit,joe,vim,inetutils,openssh,emacs,rsync
 
 
 *****************
