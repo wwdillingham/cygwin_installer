@@ -17,4 +17,4 @@ ECHO Cygwin will be installed to C:\cygwin
 ECHO.
 ECHO To complete the Installation please
 PAUSE
-start c:/Users/Public/setup.exe -q -R c:\cygwin -s http://mirrors.xmission.com/cygwin -l c:\localPackageDir -P xlogo,xinit,joe,vim,inetutils,openssh,emacs
+start c:/Users/Public/setup.exe -q -R c:\cygwin -s http://mirrors.xmission.com/cygwin -l c:\localPackageDir -P xlogo,xinit,joe,vim,inetutils,openssh,emacs,rsync
